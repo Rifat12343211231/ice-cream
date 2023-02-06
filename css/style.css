@@ -8,15 +8,20 @@ body {
 }
 
 body {
-    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
 }
 
 .wrapper {
     min-height: 100%;
 }
 
-ul,
-li {
+.hero {
+    background-color: rgba(242, 206, 218, 0.3);
+    height: 100vh;
+}
+
+ul {
     margin: 0;
     padding: 0;
 }
@@ -27,10 +32,11 @@ ul>li {
 
 a {
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 h1,
-h2,
+h1,
 h3,
 h4,
 h5,
@@ -43,20 +49,15 @@ img {
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 1250px;
     margin: 0 auto;
-}
-
-.hero {
-    background: url(../img/content/hero.jpg) no-repeat center/cover;
-    height: 100vh;
 }
 
 .header {
     display: flex;
     align-items: center;
-    padding: 25px 0px;
     justify-content: space-between;
+    margin-bottom: 207px;
 }
 
 .logo {
@@ -64,16 +65,12 @@ img {
     height: 79px;
 }
 
-.logo__pic {}
-
-.nav {}
-
 .nav__list {
     display: flex;
 }
 
 .nav__item {
-    margin-right: 40px;
+    margin-right: 28px;
 }
 
 .nav__item:last-child {
@@ -81,32 +78,134 @@ img {
 }
 
 .nav__link {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 15px;
     line-height: 18px;
-    color: #150101;
+}
+
+.nav__link:first-child {
+    /*color: #D23166;*/
 }
 
 .btn {
-    width: 165px;
-    height: 49px;
+    color: white;
     background-color: #D23166;
-    border-radius: 5px color;
-    color: #FAFAFA;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 22px;
-    padding: 19;
+    border: 0px solid #000000;
+    box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+    border-radius: 5px;
+    height: 49px;
+    width: 165px;
+    padding: 15px 36px;
 }
 
-.hero__contant {}
+.hero__content {}
 
 .hero__info {}
 
-.hero__headline {}
+.hero__headline {
+    font-family: 'Roboto';
+    width: 172px;
+    height: 16px;
+    left: 254px;
+    top: 285px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    margin-bottom: 21px;
+}
 
-.title {}
+.title {
+    font-family: 'Fredoka One';
+    font-style: normal;
+    width: 665px;
+    height: 130px;
+    left: 254px;
+    top: 307px;
+    font-weight: 400;
+    font-size: 57.33px;
+    line-height: 120.5%;
+    margin-bottom: 40px;
+}
 
-.hero__title {}
+.title__element {
+    color: #D23166;
+}
 
-.hero__desc {}
+.hero__desc {
+    margin-bottom: 50px;
+    width: 523px;
+    height: 78px;
+    left: 254px;
+    top: 472px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: rgba(15, 1, 1, 0.6);
+    font-family: 'Hind Madurai';
+}
+
+.around {
+    width: 336px;
+    height: 336px;
+    background-color: rgba(242, 206, 218, 0.611);
+    border-radius: 50%;
+    position: absolute;
+    left: 1113.8px;
+    top: 400px;
+}
+
+.hero__img-cream {
+    position: absolute;
+    width: 597px;
+    height: 597px;
+    left: 990px;
+    top: 126px;
+}
+
+.hero__img-milk {
+    position: absolute;
+    width: 851.86px;
+    height: 548.1px;
+    left: 850.8px;
+    top: 251px;
+    transform: rotate(4.79deg);
+}
+
+.offers {
+    width: 1117px;
+    height: 200px;
+    margin: auto;
+}
+
+.offers__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.food__img {
+    padding-left: 30px;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+
+.open {
+    background-color: #F8EDF0;
+
+
+}
+
+.open__title {
+    color: rgba(21, 1, 1, 1);
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+}
+
+.open__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
