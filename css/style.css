@@ -226,108 +226,213 @@ img {
     width: 100%;
 }
 
-.our {
-    margin-top: 200px;
-}
+.market__ice-cream {}
 
-.our__subtitle {
+.container {}
+
+.market__header {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 64px;
+    justify-content: center;
+    margin-top: 145px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 61px;
+    color: #150101;
 }
 
-.subtitle__text {}
+.market {}
 
-.our__list {
+.nav {}
+
+.nav__list {
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.market__list {
+    margin-top: 84px;
+}
+
+.nav__item {}
+
+.nav__link {}
+
+.market__info {}
+
+.market__info-1 {
     display: flex;
-    justify-content: space-between;
 }
 
-.our__item {}
-
-.our__menu {
-    margin-top: 50px;
+.market__flex {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.our__menu-item {
+.market__img {}
+
+.market__ice-img {}
+
+.mrk {
+    margin-left: 102px;
+    margin-right: 102px;
+}
+
+.market__headline {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    margin-top: 43px;
+    margin-bottom: 15px;
+}
+
+.market__desc {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.mrk-price {
     display: flex;
-    justify-content: space-between;
-
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
-.our__container-text {
-    margin: 20px;
-    width: 454px;
-    height: 234px;
-}
-
-.our__menu-subtitle {}
-
-.our__menu-desc {
-    margin-top: 11px;
-}
-
-.our__menu-price {
-    margin-top: 28px;
+.market__price {
+    font-family: 'Hind Madurai';
+    font-style: normal;
     font-weight: 500;
     font-size: 26px;
     line-height: 36px;
 }
 
-.our__menu-oldprice {
-    text-decoration-line: line-through;
+.market__price-delete {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
     font-size: 20px;
     line-height: 28px;
+    text-decoration-line: line-through;
     color: #000000;
-
     opacity: 0.7;
+    margin-left: 10px;
+    margin-top: 5px;
 }
 
-.our__btn {
-    margin-top: 31px;
-}
+.btn {}
 
-.our__container-img {}
+.feedback {}
+
+.feedback__container {}
+
+.feedback__content {}
 
 .review {}
 
-.review__girl {}
+.review__head {
+    display: flex;
+    align-items: center;
+    padding-bottom: 49px;
+}
 
-.girl {}
-
-.girl__img-container {
+.avatar {
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
     overflow: hidden;
 }
 
-.girl__img {
+.avatar__img {
+    height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 
-.girl__info {}
+.review__user {
+    padding-bottom: 8px;
+    padding-left: 21px;
+}
 
-.name {}
+.review__user-name {
+    padding-bottom: 11px;
+}
 
-.national {}
+.review__user-nationality {}
 
-.girl__text {}
+.review__text {
+    max-width: 345px;
 
-.review__choice {}
+}
 
-.choice__item {}
+.review__text:before,
+.review__text::after {
+    background-image: url(../img/Group.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10px;
+    height: 10px;
+    content: '';
+}
 
-.arrow {}
+.review__text:before {
+    display: block;
+    transform: scale(-1, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
-.peopla__small {}
+.review__text::after {
+    vertical-align: sub;
+    display: inline-block;
+}
 
-.peopla_big {}
+.feedback__slider {
+    max-width: 256px;
+}
 
-.review__icecream {}
+.avatars-slider {
+    padding: 0px 38px;
+    position: relative;
+}
 
-.our__menu:nth-child(odd) {
-    flex-direction: row-reverse;
+.avatars-slider__ctlrs {
+    position: absolute;
+    display: flex;
+    top: 70%;
+    left: 0;
+    width: 100%;
+    transform: translate(0px, -70%);
+    justify-content: space-between;
+}
+
+.avatars-slider__ctrl {}
+
+.avatars-slider__ctrl_direction--prev {}
+
+.avatars-slider__icon {}
+
+.avatars-slider__list {
+    display: flex;
+    padding-top: 35px;
+}
+
+.avatars-slider__item {}
+
+.avatar {}
+
+.avatar__img {}
+
+.active {
+    border-radius: 1px solid #D64374;
 }
