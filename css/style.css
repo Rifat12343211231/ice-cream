@@ -370,7 +370,6 @@ img {
 
 .review__text {
     max-width: 345px;
-
 }
 
 .review__text:before,
@@ -436,3 +435,51 @@ img {
 .active {
     border-radius: 1px solid #D64374;
 }
+
+.feedback__img {
+    position: relative;
+    padding-left: 500px;
+    bottom: 300px;
+}
+
+.feedback__img-back {}
+
+.section {}
+
+.simple {
+    background-color: #F8EDF0;
+    width: 1900px;
+    height: 678px;
+}
+
+.img__simple {
+    display: flex;
+    align-items: center;
+}
+
+.img__simple-ice {}
+
+.title__simple {
+    display: flex;
+
+    justify-content: center;
+}
+
+
+.simple__text {}
+
+.navis {}
+
+.navis__simple {}
+
+.block__fon {}
+
+.img__simple-navis {}
+
+.subtitle__simple-navis {}
+
+.logo__simple {}
+
+.logo__img-simple {}
+
+.img__logo {}
